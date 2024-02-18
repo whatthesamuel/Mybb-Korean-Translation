@@ -5,9 +5,9 @@
  *
  */
 
-$l['logindata_invalidpwordusername'] = "You have entered an invalid username/password combination. <br /><br />If you have forgotten your password please <a href=\"member.php?action=lostpw\">retrieve a new one</a>.";
-$l['logindata_invalidpwordusernameemail'] = "You have entered an invalid email/password combination. <br /><br />If you have forgotten your password please <a href=\"member.php?action=lostpw\">retrieve a new one</a>.";
-$l['logindata_invalidpwordusernamecombo'] = "You have entered an invalid username/password or email/password combination. <br /><br />If you have forgotten your password please <a href=\"member.php?action=lostpw\">retrieve a new one</a>.";
+$l['logindata_invalidpwordusername'] = "부적절한 ID/비밀번호 조합입니다. <br /><br />비밀번호를 잊어버렸다면 <a href=\"member.php?action=lostpw\">새로 발급받으십시오</a>.";
+$l['logindata_invalidpwordusernameemail'] = "부적절한 이메일/비밀번호 조합입니다. <br /><br />비밀번호를 잊어버렸다면 <a href=\"member.php?action=lostpw\">새로 발급받으십시오</a>.";
+$l['logindata_invalidpwordusernamecombo'] = "부적절한 ID/비밀번호 또는 이메일/비밀번호 조합입니다 <br /><br />비밀번호를 잊어버렸다면 <a href=\"member.php?action=lostpw\">새로 발급받으십시오</a>.";
 
-$l['logindata_regimageinvalid'] = "The image verification code that you entered was incorrect. Please enter the code exactly how it appears in the image.";
-$l['logindata_regimagerequired'] = "Please fill out the image verification code to continue the login process. Please enter the code exactly how it appears in the image.";
+$l['logindata_regimageinvalid'] = "입력한 코드가 일치하지 않습니다. 사진에 나타난 이미지를 그대로 입력하십시오.";
+$l['logindata_regimagerequired'] = "로그인을 계속하려면 사진의 확인 코드를 입력하십시오. 사진에 나타난 그대로 입력하십시오.";

@@ -5,17 +5,19 @@
  *
  */
 
-$l['eventdata_missing_name'] = 'The name for the event is missing. Please enter an event name.';
-$l['eventdata_missing_description'] = 'The description for the event is missing. Please enter an event description.';
+$l['eventdata_missing_name'] = '이벤트의 제목이 공백입니다. 이벤트 제목을 입력하십시오';
+$l['eventdata_missing_description'] = '이벤트 설명이 공백입니다. 이벤트 설명을 입력하십시오';
 
-$l['eventdata_invalid_start_date'] = 'The event start date you entered is invalid. You need to make sure you specify the day, month and year as well as ensure the day you entered is valid for the particular month.';
-$l['eventdata_invalid_start_year'] = "Events can only be created in the next 5 years. Please select a reasonable start year from the list.";
-$l['eventdata_invalid_start_month'] = 'The start month you entered is not a valid month. Please enter a valid start month.';
+$l['eventdata_invalid_start_date'] = '이벤트의 시작 날짜가 유효하지 않습니다. 해당 연월일이 유효한지 확인하십시오';
+$l['eventdata_invalid_start_year'] = "이벤트는 다음 5년 안에 시작되어야 합니다. 목록에서 적절한 연도를 선택하십시오";
+$l['eventdata_invalid_start_month'] = 'The start month you entered is not a valid month. Please enter a valid start month.
+시작 월이 유효하지 않습니다. 유효한 시작월을 입력하십시오';
 
-$l['eventdata_invalid_end_date'] = 'The event end date you entered is invalid. You need to make sure you specify the day, month and year as well as ensure the day you entered is valid for the particular month.';
-$l['eventdata_invalid_end_year'] = "Events can only be created in the next 5 years. Please select a reasonable end year from the list.";
-$l['eventdata_invalid_end_month'] = 'The end month you entered is not a valid month. Please and enter a valid end month.';
-$l['eventdata_invalid_end_day'] = 'The end day you entered is not a valid day. The day you selected is probably greater than the number of days in this month.';
+$l['eventdata_invalid_end_date'] = '이벤트 종료일이 유효하지 않습니다. 연월일이 적절한지 확인하십시오';
+$l['eventdata_invalid_end_year'] = "Events can only be created in the next 5 years. Please select a reasonable end year from the list.
+이벤트는 다음 5년 안에 시작되어야 합니다. 목록에서 적절한 연도를 선택하십시오";
+$l['eventdata_invalid_end_month'] = '종료월이 적절하지 않습니다. 적절한 종료월을 입력하십시오';
+$l['eventdata_invalid_end_day'] = '종료일이 유효하지 않습니다. 종료일이 해당 달의 범위를 넘지 않는지 확인하십시오';
 
 $l['eventdata_cant_specify_one_time'] = "If you are specifying an event start time you need to enter an event end time.";
 $l['eventdata_start_time_invalid'] = "The start time you entered is invalid. Valid examples are 12am, 12:01am, 00:01.";
@@ -31,4 +33,4 @@ $l['eventdata_invalid_repeat_month_interval'] = "You have entered an invalid mon
 $l['eventdata_invalid_repeat_year_interval'] = "You have entered an invalid year repeat interval.";
 $l['eventdata_event_wont_occur'] = "Using the start and end times along with the event repetition settings, this event won't occur.";
 
-$l['eventdata_no_permission_private_event'] = "You do not have permission to post private events.";
+$l['eventdata_no_permission_private_event'] = "비공개 이벤트를 설정할 권한이 없습니다";
